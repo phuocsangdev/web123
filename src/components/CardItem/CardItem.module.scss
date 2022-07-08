@@ -1,0 +1,11 @@
+@import "../GlobalStyles/GlobalStyles.scss";
+
+.card-item {
+  display: block;
+  border-radius: 4px;
+  &:hover {
+    border: 1px solid $primary-color;
+    color: $text-color;
+    opacity: 1;
+  }
+}
